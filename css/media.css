@@ -1,0 +1,179 @@
+@media (max-width: 767px) {
+    h1,
+    h2,
+    h3,
+    h4.h5.h6 {
+        margin: 0px;
+        padding: 0px;
+    }
+    .mainContainer {
+        margin-top: -10px;
+    }
+    .custNavbar {
+        padding: 0px;
+    }
+    .icnTop {
+        margin-right: 0px;
+    }
+    .outerWrapper {
+        padding: 20px;
+    }
+    .img1 {
+        margin-left: 0px;
+        margin-top: -60px;
+    }
+    .whiteBg {
+        background: #fff;
+    }
+    .HderSec {
+        width: 100%;
+        background: #fff;
+    }
+    .scImage {
+        padding-right: 15px !important;
+    }
+    .pdnLeftSmXs {
+        padding: 0px 0px;
+        margin-left: 0px;
+    }
+    .VideoSec {
+        position: relative;
+        background: #fff;
+        width: 100%;
+    }
+    .videoDiv {
+        position: relative;
+    }
+    .HderSecVideo {
+        position: relative;
+    }
+    .ulbl {
+        padding: 0 0 0 40px;
+    }
+    .btnYellow {
+        margin-top: 0px;
+        margin-left: 5px;
+    }
+    .custNavUl {
+        padding-left: 10px;
+    }
+    .ftrLink li {
+        float: none;
+        list-style-type: none;
+    }
+    .ftrLink li a {
+        color: #000;
+        display: block;
+        padding: 10px;
+        font-size: 14px;
+    }
+    .linkDvOuter {
+        padding: 0px;
+        margin-bottom: 35px;
+    }
+    .linkdDiv1 {
+        padding: 0px;
+        margin: 0px;
+    }
+    .linkdDiv,
+    .newsLetter h3 {
+        border-top: 0px solid #e5bf3a;
+        margin-left: 0px !important;
+        margin-bottom: 15px;
+    }
+    .footerLogo {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 575px) {
+    h1,
+    h2,
+    h3,
+    h4.h5.h6 {
+        margin: 0px;
+        padding: 0px;
+    }
+    .mainContainer {
+        margin-top: -10px;
+    }
+    .outerWrapper {
+        padding: 20px;
+    }
+    .whiteBg {
+        background: #fff;
+    }
+    .HderSec {
+        width: 100%;
+        background: #fff;
+    }
+    .scImage {
+        padding-right: 15px !important;
+    }
+    .icnTop {
+        margin-right: 0px;
+    }
+    .custNavbar {
+        padding: 0px;
+    }
+    .img1 {
+        margin-left: 0px;
+        margin-top: -60px;
+    }
+    .pdnLeftSmXs {
+        padding: 0px;
+        margin-left: 0px;
+    }
+    .VideoSec {
+        position: relative;
+        background: #fff;
+        width: 100%;
+    }
+    .videoDiv {
+        position: relative;
+    }
+    .HderSecVideo {
+        position: relative;
+    }
+    .ulbl {
+        padding: 0 0 0 40px;
+    }
+    .btnYellow {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .logoSite {
+        margin-left: 25%;
+    }
+    .custNavUl {
+        padding-left: 10px;
+    }
+    .ftrLink li {
+        float: none;
+        list-style-type: none;
+    }
+    .ftrLink li a {
+        color: #000;
+        display: block;
+        padding: 10px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .linkDvOuter {
+        padding: 0px;
+        margin-bottom: 35px;
+    }
+    .linkdDiv1 {
+        padding: 0px;
+        margin: 0px;
+    }
+    .linkdDiv,
+    .newsLetter h3 {
+        border-top: 0px solid #e5bf3a;
+        margin-left: 0px !important;
+        margin-bottom: 15px;
+    }
+    .footerLogo {
+        margin-bottom: 25px;
+    }
+}

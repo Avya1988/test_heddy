@@ -1,0 +1,446 @@
+body {
+    background: #f0f0f0;
+}
+
+.custNavbar {
+    background: #fff;
+    min-height: 55px;
+}
+
+.custNavUl li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.custBtnNavIcn {
+    background: transparent;
+}
+
+.breadcrumb {
+    background: transparent;
+    padding: 35px 0px;
+}
+
+.custBrd li a {
+    color: #000;
+}
+
+.brdUl {
+    padding: 10px 10px;
+}
+
+
+/* Style the list */
+
+ul.breadcrumb {
+    padding: 20px 16px;
+    list-style: none;
+    background-color: #eee;
+    margin: 0px;
+}
+
+
+/* Display list items side by side */
+
+ul.breadcrumb li a {
+    display: inline;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+}
+
+
+/* Add a slash symbol (/) before/behind each list item */
+
+ul.breadcrumb li+li::before {
+    padding: 8px;
+    color: #ffd042;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0da";
+    display: none;
+}
+
+
+/* Add a color to all links inside the list */
+
+ul.breadcrumb li svg {
+    color: #ffd042;
+}
+
+ul.breadcrumb li svg.fa-home {
+    color: #000;
+}
+
+ul.breadcrumb li a {
+    text-decoration: none;
+    padding: 0 5px;
+    font-size: 14px;
+}
+
+ul.breadcrumb li a.prevBred {
+    color: #9c9c9c;
+}
+
+.currBred {
+    color: #000;
+}
+
+
+/* Add a color on mouse-over */
+
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+
+/*Main content CSS*/
+
+.brdSection {
+    margin-top: 0px;
+    z-index: 999;
+}
+
+.secondaryNav {
+    min-height: 500px;
+    background: #9c9c9c;
+    z-index: 999;
+}
+
+.mainContaint {
+    background: #01447e;
+    min-height: 700px;
+}
+
+
+/*Container*/
+
+.mainContainer {
+    padding: 0px;
+    z-index: 998;
+}
+
+.leftSideNavbar {
+    min-height: 480px;
+    padding: 0px;
+    z-index: 999;
+}
+
+.leftNavigation {
+    padding: 0px;
+    margin: 100px 0 0 0;
+    z-index: 999;
+}
+
+.leftNavigation li {
+    display: block;
+    list-style-type: none;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.leftNavigation li a {
+    display: block;
+    text-align: right;
+    color: #000;
+    padding: 25px;
+    position: relative;
+    text-decoration: none;
+}
+
+.leftNavigation li a:after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    background: #ffd042;
+    height: 18px;
+    margin: 10px 0 0 0;
+    /* z-index: 999; */
+    left: 0;
+    display: none;
+    top: 27px;
+    z-index: -1;
+}
+
+.leftNavigation li a:hover:after {
+    display: block;
+}
+
+.textName {
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(-90deg);
+    -ms-transform-origin: left top 0;
+    -moz-transform-origin: left top 0;
+    -webkit-transform-origin: left top 0;
+    transform-origin: left top 0;
+    /* background: #E23737; */
+    color: #fff;
+    display: inline-block;
+    /* margin-left: 40px; */
+    position: fixed;
+    padding: 0;
+    /* border: 1px solid #ccc; */
+    text-transform: capitalize;
+    /* border: 1px solid #B52C2C; */
+    text-transform: 1px 1px 0px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 2px -2px 0px rgba(0, 0, 0, 0.1); */
+    /* float: left; */
+    top: 700px;
+    font-size: 94px;
+    left: 40px;
+    text-align: center;
+    vertical-align: middle;
+    width: 629px;
+}
+
+.bredcmOuterDiv {
+    z-index: 999;
+    top: 80px;
+}
+
+.outerWrapper {
+    margin-top: 145px;
+}
+
+
+/**/
+
+.ssd {
+    min-height: 400px;
+    color: #eee;
+    margin: 70px 0 0 0;
+}
+
+.whiteBox {
+    background: #fff;
+    min-height: 590px;
+}
+
+.img1 {
+    margin-left: -60px;
+}
+
+.cutPrice {
+    color: #b5b5b5 !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.currPrice {
+    color: #000 !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.hdr {
+    color: #000;
+}
+
+.priceDiv {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.ulbl {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.ulbl ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.ulbl ul li {
+    color: #000;
+    font-size: 14px;
+}
+
+.statusDel ul li {
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.statusDel ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.statusDel ul li span.rounded-circle {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 6px;
+    padding-top: 7px;
+    background-color: #e5e5e5;
+    text-align: center;
+    color: #000;
+    vertical-align: top;
+}
+
+.spn {
+    display: inline-block;
+    color: #4b4b4b;
+}
+
+
+/*Checkbox*/
+
+.colorPic {
+    color: #000;
+    display: block;
+}
+
+.round {
+    position: relative;
+}
+
+.round label {
+    background-color: #dbd6ac;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 28px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 28px;
+}
+
+.round label:after {
+    border: 2px solid #fff;
+    border-top: none;
+    border-right: none;
+    content: "";
+    height: 6px;
+    left: 7px;
+    opacity: 0;
+    position: absolute;
+    top: 8px;
+    transform: rotate(-45deg);
+    width: 12px;
+}
+
+.round input[type="radio"] {
+    visibility: hidden;
+}
+
+.round input[type="radio"]:checked+label {
+    background-color: #66bb6a;
+    border-color: #66bb6a;
+}
+
+.round input[type="radio"]:checked+label:after {
+    opacity: 1;
+}
+
+.cartInput {
+    width: 50px;
+    background: #eeeeee;
+    color: #000;
+    border: 0px;
+    text-align: center;
+}
+
+.btnYellow {
+    background: #ffd541;
+    font-size: 12px;
+    font-weight: 900;
+    color: #fff;
+    height: 56px;
+    margin-left: -5px;
+}
+
+.yelloBtn {
+    background: #eeeeee;
+    color: #7f7f7f;
+}
+
+.HderSecOuter {
+    position: relative;
+}
+
+.HderSec {
+    z-index: 999;
+    position: relative;
+    width: 400px;
+    background: #f0f0f0;
+    padding: 30px 30px 30px 0px;
+}
+
+.HderSec h3 {
+    color: #000;
+    font-size: 20px;
+}
+
+.prg {
+    position: relative;
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+.HderSecVideo {
+    position: absolute;
+}
+
+.VideoSec {
+    z-index: 999;
+    position: absolute;
+    width: 400px;
+    background: #f0f0f0;
+    padding: 30px 30px 30px 0px;
+}
+
+.VideoSec h3 {
+    font-size: 20px;
+}
+
+.Ftr {
+    background: #ffd541;
+    min-height: 300px;
+    margin: 30px 0 0 0;
+}
+
+.newsLetter {
+    padding: 10%;
+}
+
+.newsLetter h3 {
+    color: #000;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #e5bf3a;
+    padding-bottom: 35px;
+}
+
+.linkdDiv {
+    border-top: 1px solid #e5bf3a;
+    width: 100%;
+    padding-top: 25px;
+}
+
+.ftrLink {
+    padding: 0;
+    margin: 0px;
+}
+
+.ftrLink li {
+    float: left;
+    list-style-type: none;
+}
+
+.ftrLink li a {
+    color: #000;
+    display: inline-block;
+    padding: 10px 5px;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.footerLogo {
+    text-align: center;
+}
